@@ -1,0 +1,66 @@
+/* BACKGROUND AND CHARACTERS COLORS */
+*{
+  font-family: 'Lato', sans-serif;
+}
+.panel{
+  width: 100vw;
+}
+.backgrdark{
+  background-color: #2C3E50;
+}
+.backgrgreen{
+  background-color: #18BC9C;
+}
+.backgrdark, .backgrgreen{
+  color: white;
+  text-align: center;
+}
+.backgrwhite{
+  color: #2C3E50;
+}
+/* HEADER */
+header{
+  position: sticky;
+  top: 0;
+  z-index: 5;
+}
+header h4{
+  font-size: 32px;
+  font-weight: 700;
+  margin: 25px 0;
+}
+header #menubar{
+  font-weight: 700px;
+  font-size: 18px;
+  /* position: relative;
+  top: 50%;
+  transform: translateY(-50%); */
+}
+Header #menubar span{
+  display: inline-block;
+  padding: 0 20px;
+}
+
+/* FIRST BLOCK GREEN */
+.backgrgreen img{
+  margin: 100px 0 20px;
+}
+.backgrgreen #bigtitle{
+  font-size: 72px;
+  font-weight: 700;
+}
+hr{
+  width: 20%;
+  border: 3px solid white;
+}
+.backgrgreen h3{
+  margin-bottom: 100px;
+}
+
+/* SECOND BLOCK WITH PICTURES */
+
+.images{
+  width: 100px;
+  height: 150px;
+  padding: 10px;
+}
