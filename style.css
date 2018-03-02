@@ -125,10 +125,12 @@ hr{
   font-weight: 800;
   margin-top: 50px;
 }
+.backgrdark .row{
+  margin-bottom: 100px;
+}
 .backgrdark .descr{
     color: white;
     font-size: 18px;
-    margin: 20px 0 100px;
 }
 .backgrdark span{
   color: #18BC9C;
