@@ -24,13 +24,19 @@ header{
   top: 0;
   z-index: 5;
 }
+header, header .container {
+  height: 100px;
+}
+header #start{
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
 header h4{
   font-size: 32px;
   font-weight: 700;
-  margin: 25px 0;
 }
 header #menubar{
-  font-weight: 700px;
   font-size: 18px;
   position: relative;
   top: 50%;
@@ -39,6 +45,9 @@ header #menubar{
 Header #menubar span{
   display: inline-block;
   padding: 0 20px;
+}
+Header #hamburgermenu{
+  display: none;
 }
 
 /* FIRST BLOCK GREEN */
@@ -52,6 +61,7 @@ Header #menubar span{
 hr{
   width: 15%;
   border: 3px solid white;
+  background-color: white;
 }
 .backgrgreen #undertitle{
   margin-bottom: 100px;
@@ -79,6 +89,7 @@ hr{
   font-size: 20px;
   font-size: 300;
   text-align: left;
+  margin-bottom: 5px;
 }
 .backgrgreen button{
   font-size: 20px;
@@ -128,4 +139,47 @@ footer{
   text-align: center;
   color: white;
   padding: 20px;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 992px) {
+  header h4{
+    font-size: 24px;
+  }
+  header #menubar span{
+    font-size: 14px;
+    padding: 5px;
+  }
+
+}
+@media (max-width: 768px){
+  /* HEADER */
+  header h4{
+    font-size: 14px;
+  }
+  header #menubar{
+    display: none;
+  }
+  header #hamburgermenu{
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  header #hamburgermenu img{
+    width: 50px;
+  }
+
+  /* PRIMO BLOCCO */
+  .backgrgreen img{
+    width: 200px;
+  }
+  .backgrgreen #bigtitle{
+    font-size: 30px;
+  }
+
+  /* SECONDO BLOCCO */
+  .backgrwhite .paneltitle{
+    font-size: 38px;
+  }
 }
